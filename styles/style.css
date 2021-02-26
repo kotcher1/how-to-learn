@@ -23,7 +23,6 @@
 
 .logo {
   width: 183px;
-  height: 32px;
 }
 
 .logo_place_header {
@@ -32,6 +31,7 @@
   top: 30px;
   left: 64px;
   z-index: 3;
+  height: 32px;
 }
 
 .header__title {
@@ -257,4 +257,69 @@
   width: 877px;
   height: 877px;
   top: 0;
+}
+
+.footer {
+  padding: 60px 0 40px;
+  min-height: 350px;
+  background-color: #1f1f1f;
+  box-sizing: border-box;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+  min-height: 250px;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo_place_footer {
+  background-image: url('../images/logo_place_footer.svg');
+  height: 35px;
+}
+
+.footer__author {
+  margin: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.footer__column-links {
+  margin: 20px 0 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
