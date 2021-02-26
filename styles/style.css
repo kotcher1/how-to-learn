@@ -1,3 +1,7 @@
+.sans-serif-font {
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -14,13 +18,73 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+
+  background-color: #f2f2f2;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 183px;
+  height: 32px;
+}
+
+.logo_place_header {
+  position: absolute;
+  background-image: url('../images/logo_place_header.svg');
+  top: 30px;
+  left: 64px;
+  z-index: 3;
+}
+
+.header__title {
+  margin: 0 0 0 64px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+  width: 730px;
+  z-index: 3;
+}
+
+.header__subtitle {
+  width: 388px;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  margin: 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  z-index: 3;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.header__main-illustration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  width: 765px;
+  height: 608px;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+
+  position: absolute;
+  background-color: #2f80ed;
+  top: 64px;
+  right: 0;
 }
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
