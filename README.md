@@ -14,3 +14,6 @@
 Вохможные дополнения: 
 - добавление мобильной версии
 
+  ![image](https://github.com/kotcher1/how-to-learn/assets/43149448/ae63f211-47fe-43be-9f40-136ae7ef163d)
+
+
